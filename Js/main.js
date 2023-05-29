@@ -1,4 +1,4 @@
-const url = "http://voodoo-sandbox.myshopify.com/products.json?limit=12";
+const url = "https://voodoo-sandbox.myshopify.com/products.json?limit=12";
 
 fetch(url)
   .then(response => response.json())
